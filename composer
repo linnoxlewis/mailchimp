@@ -1,0 +1,24 @@
+{
+  "name": "linnoxlewis/mailchimp",
+  "description": "Компонент yii2 для работы с сервисом mailchimp",
+  "type": "package",
+  "require": {
+    "yiisoft/yii2": "2.*",
+    "yiisoft/yii2-bootstrap": "^2.0",
+    "linslin/yii2-curl": "*"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Vitaliy Osipenko",
+      "email": "vosipenko1394@gmail.com"
+    }
+  ],
+  "minimum-stability" : "dev",
+  "prefer-stable": true ,
+  "autoload": {
+    "psr-4": {
+      "linnoxlewis\\mailchimp\\": "src/"
+    }
+  }
+}
