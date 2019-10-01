@@ -4,11 +4,11 @@ Yii2 .
 
 Конфигурация:
 ```
-use linnoxlewis\iap\IapComponent;
+use linnoxlewis\mailchimp;
 return [
  'components' => [ 
         // ...,
-    'iap-component' => [ 
+    'mailchimp' => [ 
         'class' => Mailchimp::class, 
         'apikey' => 'your api key', 
         'urlId' =>'us20', 
